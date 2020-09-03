@@ -114,6 +114,8 @@
     <Compile Include="Assets\Archer\KriptoFX\ArcherEffects\Scripts\Rendering\AE_LegacyRenderDistortion.cs" />
     <Compile Include="Assets\Archer\KriptoFX\ArcherEffects\Scripts\Rendering\AE_PerPlatformSettings.cs" />
     <Compile Include="Assets\Archer\KriptoFX\ArcherEffects\Scripts\Rendering\AE_SwapDistortionShaderForMobile.cs" />
+    <Compile Include="Assets\Archer\Scripts\ArcherFOV.cs" />
+    <Compile Include="Assets\Archer\Scripts\NavMeshController.cs" />
     <Compile Include="Assets\cameraMovement.cs" />
     <None Include="Assets\Archer\KriptoFX\ArcherEffects\Shaders\AE_UberDistortionStandardMobile.shader" />
     <None Include="Assets\Archer\KriptoFX\ArcherEffects\Shaders\Rift\AE_PortalSky.shader" />

@@ -34,9 +34,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Obstacle
+  - Blue team
+  - Red team
   m_SortingLayers:
   - name: Default
     uniqueID: 0

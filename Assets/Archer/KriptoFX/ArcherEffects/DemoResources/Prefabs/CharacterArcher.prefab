@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4930841823206000}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4820901667712792}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandPinky3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4658649446663520}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightFootToeBase_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 4548175130402268}
   - component: {fileID: 114360519351405094}
   - component: {fileID: 120221731017626904}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BowPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4360443504872268}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,7 +295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4248739123136408}
   - component: {fileID: 137876792287136482}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Body_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -429,7 +429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4356133127594094}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4343534568782680}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandIndex5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4277913259791368}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -524,7 +524,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4924740400796336}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftFootToeBase_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -554,7 +554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4554000931582296}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandPinky2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 4168265304224566}
   - component: {fileID: 33928983764294542}
   - component: {fileID: 23350310065186642}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Weapons_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -664,7 +664,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4667045160639294}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -695,7 +695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4567641729708514}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -728,7 +728,7 @@ GameObject:
   - component: {fileID: 4693452114822726}
   - component: {fileID: 33566518204279108}
   - component: {fileID: 23482377783420528}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Erika_Archer_Bow_Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -805,7 +805,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4562040245816730}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -836,7 +836,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4187976083749216}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -873,7 +873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4515190759598300}
   - component: {fileID: 137496980217348130}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Skirt_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -972,7 +972,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4346726670833030}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1003,7 +1003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4565752523759332}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1033,7 +1033,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4214279779249314}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandThumb5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1063,7 +1063,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4983487683647510}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1094,7 +1094,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4060756669328438}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandRing5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1124,7 +1124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4713227842995872}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1155,7 +1155,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4620141536864848}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandPinky1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1186,7 +1186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4916669065254888}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandPinky5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1216,7 +1216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4940536740797716}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1246,7 +1246,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4453144509853034}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1277,7 +1277,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4871793143174076}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1310,7 +1310,7 @@ GameObject:
   - component: {fileID: 4226938570837794}
   - component: {fileID: 33003881960398012}
   - component: {fileID: 23429779224497892}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Weapons_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1387,7 +1387,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4346064826068236}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1418,7 +1418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4389679853503256}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1448,7 +1448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4364011141919614}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: StringHandPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1478,7 +1478,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4789152100496730}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1511,7 +1511,11 @@ GameObject:
   - component: {fileID: 4713897519235210}
   - component: {fileID: 95547625106680604}
   - component: {fileID: 114985500420192712}
-  m_Layer: 8
+  - component: {fileID: 1213961347}
+  - component: {fileID: 1213961350}
+  - component: {fileID: 294719366}
+  - component: {fileID: 294719367}
+  m_Layer: 31
   m_Name: CharacterArcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1532,6 +1536,7 @@ Transform:
   - {fileID: 4653656968868576}
   - {fileID: 4365061249476476}
   - {fileID: 4265317079657388}
+  - {fileID: 1608415110554225834}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -270, z: 0}
@@ -1568,14 +1573,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Effect1:
     TargetAnimation: {fileID: 0}
-    Prefab: {fileID: 0}
+    Prefab: {fileID: 1710894734348490, guid: 7c67b47cb79d8904e8ae9e6c7adfbbc9, type: 3}
     BonePosition: {fileID: 4789152100496730}
     BoneRotation: {fileID: 4785305698351244}
     DestroyTime: 8
     CurrentInstance: {fileID: 0}
   Effect2:
     TargetAnimation: {fileID: 0}
-    Prefab: {fileID: 0}
+    Prefab: {fileID: 1548770416378138, guid: 9e4dd86bb48767d429a6ecfb61e10f75, type: 3}
     BonePosition: {fileID: 4789152100496730}
     BoneRotation: {fileID: 4785305698351244}
     DestroyTime: 8
@@ -1597,6 +1602,73 @@ MonoBehaviour:
   Bow: {fileID: 1131821882666052}
   Arrow: {fileID: 1113289593167878}
   HUE: -1
+--- !u!54 &1213961347
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359868552956964}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 2
+--- !u!136 &1213961350
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359868552956964}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.8, z: 0}
+--- !u!195 &294719366
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359868552956964}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1
+  m_Speed: 0.4
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &294719367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359868552956964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12b9805898836f94ba05a602a598661c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 294719366}
+  destination: {fileID: 0}
+  archer: {fileID: 719724370664846963}
 --- !u!1 &1372212075699160
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,7 +1678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4041835231686448}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1637,7 +1709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4848101004169276}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1673,7 +1745,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4964377091212044}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1703,7 +1775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4802847039405388}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1734,7 +1806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4043259189718272}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Neck1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1765,7 +1837,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4893721869935034}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1796,7 +1868,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4065915569865486}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandPinky2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1827,7 +1899,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4071918745537744}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1858,7 +1930,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4178556743019674}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1889,7 +1961,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4653656968868576}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1919,7 +1991,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4115992237397654}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1950,7 +2022,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4239863762725188}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1981,7 +2053,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4032509700812974}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandPinky3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2013,7 +2085,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4451243802468284}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2044,7 +2116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4887112074949106}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2074,7 +2146,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4642816807883030}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2105,7 +2177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4827967176713964}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2136,7 +2208,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4323447579680990}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandMiddle5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2166,7 +2238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4085675937941802}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2198,7 +2270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4564469078961608}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2230,7 +2302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4917766267170536}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2261,7 +2333,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4831066331022068}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandThumb5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2291,7 +2363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4074157333409994}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2323,7 +2395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4265512679942418}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2355,7 +2427,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4102951151355894}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2386,7 +2458,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4206874856286462}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2418,7 +2490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4004562427838240}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2449,7 +2521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4848466210742336}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2480,7 +2552,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4996463658970988}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2511,7 +2583,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4562961603332794}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2542,7 +2614,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4566460590596626}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandRing4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2572,7 +2644,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4563132280349632}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2604,7 +2676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4365061249476476}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2637,7 +2709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4953386850415408}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandRing5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2667,7 +2739,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4710265721991762}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Arrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2698,7 +2770,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4104348503903166}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2729,7 +2801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4879420600095776}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2762,7 +2834,7 @@ GameObject:
   - component: {fileID: 4199150867796550}
   - component: {fileID: 137006878766344354}
   - component: {fileID: 183374944545751376}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Cloak_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5729,7 +5801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4475713318098832}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5760,7 +5832,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4416822060177766}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5791,7 +5863,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4822648280606744}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandPinky4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5821,7 +5893,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4468582861271924}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5851,7 +5923,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4092754717095712}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5883,7 +5955,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4857610405368482}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5915,7 +5987,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4989522980741214}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5947,7 +6019,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4437866561532708}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5977,7 +6049,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4866336389965440}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6008,7 +6080,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4206115725257724}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandRing4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6038,7 +6110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4388365651814338}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6069,7 +6141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4499961112716658}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandPinky1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6100,7 +6172,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4696856504011004}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6131,7 +6203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4407416553796624}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandPinky5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6161,7 +6233,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4099679985223006}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:RightHandPinky4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6191,7 +6263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4600725923597630}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandIndex5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6221,7 +6293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4785305698351244}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Rotation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6251,7 +6323,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4265317079657388}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:Meshes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6284,7 +6356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4927668298241774}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6315,7 +6387,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4011661981065302}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arissa:LeftHandMiddle5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6336,3 +6408,56 @@ Transform:
   m_Father: {fileID: 4857610405368482}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8151250847341839660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1608415110554225834}
+  - component: {fileID: 719724370664846963}
+  m_Layer: 0
+  m_Name: ArcherAim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1608415110554225834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8151250847341839660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4713897519235210}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &719724370664846963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8151250847341839660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac8c1606cbd6ba48b4ebd1c9b37f3f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterAnimator: {fileID: 95547625106680604}
+  character: {fileID: 4713897519235210}
+  bow: {fileID: 4785305698351244}
+  viewRadius: 25
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 1073741824
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 536870912

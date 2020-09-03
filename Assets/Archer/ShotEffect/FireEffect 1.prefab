@@ -4670,10 +4670,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UseCollisionDetect: 1
   Mass: 1
-  Speed: 80
+  Speed: 20
   RandomSpeedOffset: 0
   AirDrag: 0.2
-  UseGravity: 1
+  UseGravity: 0
   ForceMode: 1
   ColliderRadius: 0.05
   FreezeRotation: 0

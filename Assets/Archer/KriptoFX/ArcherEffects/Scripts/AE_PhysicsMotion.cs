@@ -59,10 +59,7 @@ public class AE_PhysicsMotion : MonoBehaviour
             collid = gameObject.AddComponent<SphereCollider>();
             collid.radius = ColliderRadius;
         }
-
         isInitializedForce = false;
-        
-       
     }
 
     void InitializeForce()
@@ -174,8 +171,8 @@ public class AE_PhysicsMotion : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        //if (Application.isPlaying)
-        //    return;
+        if (Application.isPlaying)
+            return;
 
         var t = transform;
         Gizmos.color = Color.green;

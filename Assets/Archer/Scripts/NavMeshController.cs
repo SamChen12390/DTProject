@@ -17,8 +17,23 @@ public class NavMeshController : MonoBehaviour
         }
         else
         {
-            agent.SetDestination(destination.position);
+            if (destination != null)
+            {
+                if ((transform.position - destination.position).magnitude <= 2f)
+                {
+                    agent.SetDestination(transform.position);
+                }
+                else
+                {
+                    agent.SetDestination(destination.position);
+                }
+            }
         }
+    }
+
+    public void SetTarget(Transform target)
+    {
+        this.destination = target;
     }
 
 }

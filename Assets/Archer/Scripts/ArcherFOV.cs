@@ -6,6 +6,7 @@ public class ArcherFOV : MonoBehaviour
 {
     public Animator characterAnimator;
     public Transform character;
+    public Character characterHealth;
     public Transform bow;
 
     public float viewRadius;
@@ -18,7 +19,35 @@ public class ArcherFOV : MonoBehaviour
     
     private void Start()
     {
+        characterAnimator.SetFloat("Health", characterHealth.maxHealth);
+
+        if (LayerMask.LayerToName(transform.parent.gameObject.layer).Contains("Blue team"))
+        {
+            targetMask = LayerMask.GetMask("Red team");
+        }
+        else
+        {
+            targetMask = LayerMask.GetMask("Blue team");
+        }
+
         StartCoroutine("SearchTarget", 0.2f);
+    }
+
+    private void Update()
+    {
+        if (characterHealth.maxHealth <= 0)
+        {
+            StopCoroutine("SearchTarget");
+            StopCoroutine("WaitForSeconds");
+            characterAnimator.Play("Death");
+            StartCoroutine("Death", 1);
+        }
+    }
+
+    IEnumerator Death(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Destroy(transform.parent.gameObject);
     }
 
     IEnumerator SearchTarget(float delay)
@@ -43,9 +72,12 @@ public class ArcherFOV : MonoBehaviour
                 float dstToTarget = Vector3.Distance(transform.position, target.position);
                 if (!Physics.Raycast(transform.position, dirToTarget, dstToTarget, obstacleMask))
                 {
-                    visibleTargets.Add(target);
-                    SortTarget();
-                    ShootingDelayTime();
+                    if (target.GetComponent<Character>().maxHealth != 0)
+                    {
+                        visibleTargets.Add(target);
+                        SortTarget();
+                        ShootingDelayTime();
+                    }
                 }
             }
         }
@@ -74,7 +106,7 @@ public class ArcherFOV : MonoBehaviour
     void AimTarget(Transform t)
     {
         Vector3 target = new Vector3(t.position.x, character.position.y, t.position.z);
-        bow.LookAt(nearestTarget);
+        bow.LookAt(nearestTarget.position + Vector3.up);
         character.LookAt(target);
     }
 
@@ -94,7 +126,10 @@ public class ArcherFOV : MonoBehaviour
             {
                 Gizmos.color = Color.red;
             }
-            Gizmos.DrawRay(transform.position, (target.position - transform.position).normalized * viewRadius);
+            if (target != null)
+            {
+                Gizmos.DrawRay(transform.position, (target.position - transform.position).normalized * viewRadius);
+            }
         }
     }
 }

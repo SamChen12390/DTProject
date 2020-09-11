@@ -115,7 +115,11 @@
     <Compile Include="Assets\Archer\KriptoFX\ArcherEffects\Scripts\Rendering\AE_PerPlatformSettings.cs" />
     <Compile Include="Assets\Archer\KriptoFX\ArcherEffects\Scripts\Rendering\AE_SwapDistortionShaderForMobile.cs" />
     <Compile Include="Assets\Archer\Scripts\ArcherFOV.cs" />
+    <Compile Include="Assets\Archer\Scripts\Character.cs" />
+    <Compile Include="Assets\Archer\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Archer\Scripts\Launcher.cs" />
     <Compile Include="Assets\Archer\Scripts\NavMeshController.cs" />
+    <Compile Include="Assets\Archer\SimpleHealthBar\Healthbar.cs" />
     <Compile Include="Assets\cameraMovement.cs" />
     <None Include="Assets\Archer\KriptoFX\ArcherEffects\Shaders\AE_UberDistortionStandardMobile.shader" />
     <None Include="Assets\Archer\KriptoFX\ArcherEffects\Shaders\Rift\AE_PortalSky.shader" />
@@ -130,6 +134,7 @@
     <None Include="Assets\Archer\KriptoFX\ArcherEffects\Readme.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\Test.xml" />
     <None Include="Assets\Archer\KriptoFX\ArcherEffects\Shaders\AE_UberDecal.shader" />
+    <None Include="Assets\Archer\SimpleHealthBar\documentation.txt" />
     <None Include="Assets\Archer\KriptoFX\ArcherEffects\Shaders\AE_DecalDistortMask.shader" />
     <None Include="Assets\Archer\KriptoFX\ArcherEffects\Shaders\Rift\AE_TranperentDiffuse.shader" />
     <None Include="Assets\Archer\KriptoFX\ArcherEffects\Shaders\Rift\AE_PortalMask.shader" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="Monogram-TD-Logo-Design-by-Greenlines-Studios-580x386" size="3.000000 1.996552" />
+    <ImageTarget name="TD" size="100.000000 56.250000" />
   </Tracking>
 </QCARConfig>

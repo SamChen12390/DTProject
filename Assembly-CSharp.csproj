@@ -114,9 +114,11 @@
     <Compile Include="Assets\Archer\KriptoFX\ArcherEffects\Scripts\Rendering\AE_LegacyRenderDistortion.cs" />
     <Compile Include="Assets\Archer\KriptoFX\ArcherEffects\Scripts\Rendering\AE_PerPlatformSettings.cs" />
     <Compile Include="Assets\Archer\KriptoFX\ArcherEffects\Scripts\Rendering\AE_SwapDistortionShaderForMobile.cs" />
+    <Compile Include="Assets\Archer\Scripts\AllCharacter.cs" />
     <Compile Include="Assets\Archer\Scripts\ArcherFOV.cs" />
     <Compile Include="Assets\Archer\Scripts\Character.cs" />
     <Compile Include="Assets\Archer\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Archer\Scripts\ITrackableEventHandler.cs" />
     <Compile Include="Assets\Archer\Scripts\Launcher.cs" />
     <Compile Include="Assets\Archer\Scripts\NavMeshController.cs" />
     <Compile Include="Assets\Archer\SimpleHealthBar\Healthbar.cs" />
@@ -317,7 +319,7 @@
       <HintPath>D:/Unity/2019.4.3f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>D:/GitHub/DTProject/Library/PackageCache/com.ptc.vuforia.engine@9.3.3/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+      <HintPath>D:/GitHub/DTProject/Library/PackageCache/com.ptc.vuforia.engine@9.4.6/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Unity/2019.4.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

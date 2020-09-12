@@ -38,9 +38,8 @@ public class ArcherFOV : MonoBehaviour
         if (characterHealth.maxHealth <= 0)
         {
             StopCoroutine("SearchTarget");
-            StopCoroutine("WaitForSeconds");
             characterAnimator.Play("Death");
-            StartCoroutine("Death", 1);
+            StartCoroutine("Death", 5);
         }
     }
 
@@ -76,21 +75,10 @@ public class ArcherFOV : MonoBehaviour
                     {
                         visibleTargets.Add(target);
                         SortTarget();
-                        ShootingDelayTime();
                     }
                 }
             }
         }
-    }
-
-    public void ShootingDelayTime()
-    {
-        StartCoroutine("WaitForSeconds", 1f);
-    }
-
-    IEnumerator WaitForSeconds(float delay)
-    {
-        yield return new WaitForSeconds(delay);
         characterAnimator.SetInteger("TargetInRange", visibleTargets.Count);
     }
 

@@ -90,7 +90,6 @@ public class HealthBar : MonoBehaviour
         if (LayerMask.LayerToName(transform.parent.parent.gameObject.layer).Contains("Blue team"))
         {
             barImage.color = Color.cyan;
-            health = 100;
         }
         else
         {

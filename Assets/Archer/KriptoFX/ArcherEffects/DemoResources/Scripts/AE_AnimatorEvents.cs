@@ -3,6 +3,7 @@ using System.Collections;
 
 public class AE_AnimatorEvents : MonoBehaviour
 {
+    private GameObject effectPool;
     public AE_EffectAnimatorProperty Effect1;
     public AE_EffectAnimatorProperty Effect2;
     public AE_EffectAnimatorProperty Effect3;
@@ -11,6 +12,11 @@ public class AE_AnimatorEvents : MonoBehaviour
     public GameObject Arrow;
 
     [HideInInspector] public float HUE = -1;
+
+    private void Awake()
+    {
+        effectPool = GameObject.Find("Effect Pool");
+    }
 
     [System.Serializable]
     public class AE_EffectAnimatorProperty
@@ -32,7 +38,9 @@ public class AE_AnimatorEvents : MonoBehaviour
             effect.CurrentInstance = Instantiate(effect.Prefab, effect.BonePosition.position, effect.BoneRotation.rotation);
         else effect.CurrentInstance = Instantiate(effect.Prefab);
 
-        if(effect.TargetAnimation != null)
+        effect.CurrentInstance.transform.SetParent(effectPool.transform);
+
+        if (effect.TargetAnimation != null)
         {
             effect.CurrentInstance.GetComponent<Animator>().runtimeAnimatorController = effect.TargetAnimation;
         }

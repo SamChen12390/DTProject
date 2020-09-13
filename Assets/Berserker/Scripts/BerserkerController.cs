@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 public enum Status
 {
+    Idle,
     Propel,
     Sprint,
     Attack,
@@ -15,12 +16,15 @@ public class BerserkerController : MonoBehaviour
     public float health = 100;
     public Status state;
     public float hatredRange=30.0f;
+    public float sprintRange = 20.0f;
     GameObject target;
     public float attackDamage = 1.0f;
+    
     NavMeshAgent agent;
+    public bool isWandering;
     void Start()
     {
-        state = Status.Propel;
+        state = Status.Idle;
         agent = GetComponent<NavMeshAgent>();
         target = GameObject.FindGameObjectWithTag("Target");
     }
@@ -32,13 +36,21 @@ public class BerserkerController : MonoBehaviour
         float distance = Vector3.Distance(target.transform.position, transform.position);
         switch (state)
         {
+            case Status.Idle:
+                 if(distance<=hatredRange)
+                {
+                    state = Status.Propel;
+                }
+                 break;
+
             case Status.Propel:
-                propel();
-                if (distance <= hatredRange || health<60)
+                agent.SetDestination(target.transform.position);
+                transform.GetComponent<Animator>().SetBool("have_a_path_to_enemy", true);
+                if(distance<=sprintRange)
                 {
                     state = Status.Sprint;
                 }
-                 break;
+                break;
             case Status.Sprint:
                 agent.speed = 6.0f;
 
@@ -83,13 +95,13 @@ public class BerserkerController : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, hatredRange);
     }
 
-    public void propel()
+/*    public void propel()
     {
         LookAtTarget();
         agent.SetDestination(target.transform.position);
         transform.GetComponent<Animator>().SetBool("have_a_path_to_enemy", true);
 
-    }
+    }*/
 
     public void attack()
     {
@@ -100,5 +112,17 @@ public class BerserkerController : MonoBehaviour
     {
         gameObject.GetComponent<NavMeshAgent>().velocity = Vector3.zero;
         transform.GetComponent<Animator>().SetBool("die", true);
+    }
+
+    public void wander()
+    {
+        int rotTime = Random.Range(1, 3);
+        int rotateWait = Random.Range(1, 4);
+        int rotateLorR = Random.Range(1, 2);
+        int walkWait = Random.Range(1, 4);
+        int walkTime = Random.Range(1, 5);
+
+
+
     }
 }

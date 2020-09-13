@@ -46,9 +46,11 @@ MonoBehaviour:
   instantiatePool: {fileID: 0}
   characterArcher: {fileID: 5427278911664268379, guid: 24d6275c36aadb945b702da740d3ee87,
     type: 3}
+  characterBerserker: {fileID: 0}
   defenseSpawnPoint: {fileID: 0}
   defensePoints: {fileID: 0}
   enemySpawnPoints: {fileID: 0}
+  InvasionPoint: {fileID: 0}
   archerButton: {fileID: 0}
   berserkerButton: {fileID: 0}
   coinsText: {fileID: 0}

@@ -1688,6 +1688,7 @@ MonoBehaviour:
   attackDamage: 50
   value: 100
   cost: 200
+  archer: {fileID: 719724370664846963}
   healthBar: {fileID: 5494403276271579295}
   effect1:
     _effect1: {fileID: 1607237663569260, guid: 24754a283e09dec46b6d3b86a4a9d686, type: 3}

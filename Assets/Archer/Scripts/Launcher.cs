@@ -11,6 +11,7 @@ public class Launcher : MonoBehaviour
     public GameObject defenseSpawnPoint;
     public GameObject defensePoints;
     public GameObject enemySpawnPoints;
+    public GameObject InvasionPoint;
     public Button archerButton;
     public Button berserkerButton;
     private int currentArcherAmount = 1;
@@ -119,7 +120,7 @@ public class Launcher : MonoBehaviour
             yield return new WaitForSeconds(delayTime);
             if (currentEnemyUnit < maxEnemyUnit)
             {
-                GenerateCharacterForRedTeam(characterArcher, enemySpawnPoints.GetComponentsInChildren<Transform>()[currentEnemyUnit].position, defenseSpawnPoint.transform);
+                GenerateCharacterForRedTeam(characterArcher, enemySpawnPoints.GetComponentsInChildren<Transform>()[currentEnemyUnit].position, InvasionPoint.transform);
                 currentEnemyUnit++;
             }
         }

@@ -23,7 +23,7 @@ public class NavMeshController : MonoBehaviour
             {
                 if (destination != null)
                 {
-                    if ((transform.position - destination.position).magnitude <= 2f)
+                    if ((transform.position - destination.position).magnitude <= 1f)
                     {
                         agent.SetDestination(transform.position);
                     }

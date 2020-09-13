@@ -11,6 +11,7 @@ public class Character : MonoBehaviour
     public int value;
     public int cost;
     private bool alive;
+    public ArcherFOV archer;
     public HealthBar healthBar;
     public ShotEffect effect1;
     public ShotEffect effect2;
@@ -39,6 +40,7 @@ public class Character : MonoBehaviour
                 aE_AnimatorEvents.Effect1.Prefab = effect1._effect1;
                 aE_AnimatorEvents.Effect2.Prefab = effect1._effect2;
                 value = 0;
+                archer.viewRadius *= 1.5F;
                 alive = true;
             }
             if (transform.gameObject.layer == LayerMask.NameToLayer("Red team"))
